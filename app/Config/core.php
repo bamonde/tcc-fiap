@@ -116,7 +116,7 @@
  * Turn off all caching application-wide.
  *
  */
-	Configure::write('Cache.disable', false);
+	Configure::write('Cache.disable', true);
 
 /**
  * Enable cache checking.
@@ -127,7 +127,7 @@
  * or in each action using $this->cacheAction = true.
  *
  */
-	Configure::write('Cache.check', true);
+	Configure::write('Cache.check', false);
 
 /**
  * Defines the default error type when using the log() function. Used for
@@ -208,7 +208,7 @@
  *
  * To use, prefix the CSS link URL with '/ccss/' instead of '/css/' or use HtmlHelper::css().
  */
-	Configure::write('Asset.filter.css', 'css.php');
+	//Configure::write('Asset.filter.css', 'css.php');
 
 /**
  * Plug in your own custom JavaScript compressor by dropping a script in your webroot to handle the
