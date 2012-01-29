@@ -1,0 +1,48 @@
+2012-01-28 11:21:37 Notice: Notice (8): session_start(): ps_files_cleanup_dir: opendir(/var/lib/php5) failed: Permission denied (13) in [/var/www/tcc/lib/Cake/Model/Datasource/CakeSession.php, line 614]
+Trace:
+session_start - [internal], line ??
+CakeSession::_startSession() - CORE/Cake/Model/Datasource/CakeSession.php, line 614
+CakeSession::start() - CORE/Cake/Model/Datasource/CakeSession.php, line 194
+CakeSession::check() - CORE/Cake/Model/Datasource/CakeSession.php, line 220
+SessionHelper::flash() - CORE/Cake/View/Helper/SessionHelper.php, line 122
+include - APP/View/Layouts/default.ctp, line 24
+View::_render() - CORE/Cake/View/View.php, line 595
+View::renderLayout() - CORE/Cake/View/View.php, line 411
+View::render() - CORE/Cake/View/View.php, line 373
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 111
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 86
+[main] - APP/webroot/index.php, line 96
+
+2012-01-28 11:26:45 Notice: Notice (8): session_start(): ps_files_cleanup_dir: opendir(/var/lib/php5) failed: Permission denied (13) in [/var/www/tcc/lib/Cake/Model/Datasource/CakeSession.php, line 614]
+Trace:
+session_start - [internal], line ??
+CakeSession::_startSession() - CORE/Cake/Model/Datasource/CakeSession.php, line 614
+CakeSession::start() - CORE/Cake/Model/Datasource/CakeSession.php, line 194
+CakeSession::check() - CORE/Cake/Model/Datasource/CakeSession.php, line 220
+SessionHelper::flash() - CORE/Cake/View/Helper/SessionHelper.php, line 122
+include - APP/View/Layouts/default.ctp, line 24
+View::_render() - CORE/Cake/View/View.php, line 595
+View::renderLayout() - CORE/Cake/View/View.php, line 411
+View::render() - CORE/Cake/View/View.php, line 373
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 111
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 86
+[main] - APP/webroot/index.php, line 96
+
+2012-01-28 11:26:51 Notice: Notice (8): session_start(): ps_files_cleanup_dir: opendir(/var/lib/php5) failed: Permission denied (13) in [/var/www/tcc/lib/Cake/Model/Datasource/CakeSession.php, line 614]
+Trace:
+session_start - [internal], line ??
+CakeSession::_startSession() - CORE/Cake/Model/Datasource/CakeSession.php, line 614
+CakeSession::start() - CORE/Cake/Model/Datasource/CakeSession.php, line 194
+CakeSession::check() - CORE/Cake/Model/Datasource/CakeSession.php, line 220
+SessionHelper::flash() - CORE/Cake/View/Helper/SessionHelper.php, line 122
+include - APP/View/Layouts/default.ctp, line 24
+View::_render() - CORE/Cake/View/View.php, line 595
+View::renderLayout() - CORE/Cake/View/View.php, line 411
+View::render() - CORE/Cake/View/View.php, line 373
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 111
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 86
+[main] - APP/webroot/index.php, line 96
+
