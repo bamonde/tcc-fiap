@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteRule    ^$    webroot/    [L]
+    RewriteRule    (.*) webroot/$1    [L]
+
+#	RewriteCond %{REQUEST_URI} \.css$
+#	RewriteRule ^(.+)$  /csspp/process.php?file=%{REQUEST_URI}&%{QUERY_STRING}
+
+</IfModule>
