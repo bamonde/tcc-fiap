@@ -11,14 +11,15 @@
 <div id="geral">
 	<div id="content">
 		<div id="logo">
+			<span></span>
 			<h1>Chamados TCC</h1>
 		</div>
 		<div id="menu">
 			<ul>
-				<li><?php echo $this->Html->link('Chamados', '/chamados', array('class'=>'callers')) ?></li>
-				<li><?php echo $this->Html->link('Usuarios', '/', array('class'=>'users')) ?></li>
-				<li><?php echo $this->Html->link('Setores', '/', array('class'=>'sectors')) ?></li>
-				<li><?php echo $this->Html->link('Prioridades', '/', array('class'=>'priority')) ?></li>
+				<li class="callers"><span></span><?php echo $this->Html->link('Chamados', '/chamados') ?></li>
+				<li class="users"><span></span><?php echo $this->Html->link('Usuarios', '/') ?></li>
+				<li class="sectors"><span></span><?php echo $this->Html->link('Setores', '/') ?></li>
+				<li class="priority"><span></span><?php echo $this->Html->link('Prioridades', '/') ?></li>
 			</ul>
 		</div>
 		<?php $this->Session->flash(); ?>

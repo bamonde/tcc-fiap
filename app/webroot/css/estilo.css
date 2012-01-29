@@ -37,10 +37,18 @@ div#geral div#content {
 	min-height: 600px;
 }
 div#geral div#content div#logo {
-	background: #d4d4d4 url("../img/telephone.png") no-repeat;
+	background: #d4d4d4; 
 	border-top: 1px solid #ccc;
 	border-bottom: 1px solid #ccc;
-	padding: 13px 70px;
+	padding: 10px;
+}
+div#geral div#content div#logo span {
+	background: #d4d4d4 url("../img/css.sprite.png") no-repeat -5px -10px;
+	display: block;
+	float: left;
+	width: 55px;
+	height: 53px;
+	margin: -8px 10px;
 }
 div#geral div#content div#menu {
 	height: 40px;
@@ -62,19 +70,25 @@ div#geral div#content div#menu ul li a {
 	width: 150px;
 	height: 40px;
 	display: block;
-	padding: 0 0 0 40px;
 }
-div#geral div#content div#menu ul li a.users {
-	background: url("../img/users.png") no-repeat 7px 9px;
+div#geral div#content div#menu ul li span {
+	display: block;
+	float: left;
+	width: 30px;
+	height: 30px;
+	margin: 5px 5px;
 }
-div#geral div#content div#menu ul li a.callers {
-	background: url("../img/callers.png") no-repeat 7px 9px;
+div#geral div#content div#menu ul li.users span {
+	background: url("../img/css.sprite.png") no-repeat -96px -6px;
 }
-div#geral div#content div#menu ul li a.sectors {
-	background: url("../img/sectors.png") no-repeat 7px 9px;
+div#geral div#content div#menu ul li.callers span {
+	background: url("../img/css.sprite.png") no-repeat -63px -7px;
 }
-div#geral div#content div#menu ul li a.priority {
-	background: url("../img/priority.png") no-repeat 7px 9px;
+div#geral div#content div#menu ul li.sectors span {
+	background: url("../img/css.sprite.png") no-repeat -96px -36px;
+}
+div#geral div#content div#menu ul li.priority span {
+	background: url("../img/css.sprite.png") no-repeat -65px -38px;
 }
 
 div#geral div#content div#menu ul li a:hover {
