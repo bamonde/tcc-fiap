@@ -2,7 +2,7 @@
 class Chamado extends AppModel {
 	public $name = 'Chamado';
 	public $displayField = 'titulo';
-	public $cacheQueries = false;
+	public $cacheQueries = true;
 	
 	
 	public $titulos = array(

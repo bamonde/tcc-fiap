@@ -51,13 +51,12 @@ div.grid-basic table tr td.action {
 	width: 16px;
 	height: 16px;
 	cursor: pointer;
-	background: url("../img/css.sprite.png") no-repeat 0px 0px;
 }
 div.grid-basic table tr td.edit {
-	background-position: -132px -12px;
+	background: url("../img/edit.png") no-repeat 0px 0px;
 }
 div.grid-basic table tr td.delete {
-	background-position: -132px -40px;
+	background: url("../img/delete.png") no-repeat 0px 0px;
 }
 div.paging {
 	text-align: right;
