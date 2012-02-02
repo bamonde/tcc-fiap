@@ -43,7 +43,7 @@ div#geral div#content div#logo {
 	padding: 10px;
 }
 div#geral div#content div#logo span {
-	background: #d4d4d4 url("../img/css.sprite.png") no-repeat -5px -10px;
+	background: #d4d4d4 url("../img/telephone.png") no-repeat -5px -8px;
 	display: block;
 	float: left;
 	width: 55px;
@@ -79,16 +79,16 @@ div#geral div#content div#menu ul li span {
 	margin: 5px 5px;
 }
 div#geral div#content div#menu ul li.users span {
-	background: url("../img/css.sprite.png") no-repeat -96px -6px;
+	background: url("../img/users.png") no-repeat 0 0;
 }
 div#geral div#content div#menu ul li.callers span {
-	background: url("../img/css.sprite.png") no-repeat -63px -7px;
+	background: url("../img/callers.png") no-repeat 0 0;
 }
 div#geral div#content div#menu ul li.sectors span {
-	background: url("../img/css.sprite.png") no-repeat -96px -36px;
+	background: url("../img/sectors.png") no-repeat 0 0;
 }
 div#geral div#content div#menu ul li.priority span {
-	background: url("../img/css.sprite.png") no-repeat -65px -38px;
+	background: url("../img/priority.png") no-repeat 0 0;
 }
 
 div#geral div#content div#menu ul li a:hover {
