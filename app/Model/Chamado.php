@@ -30,4 +30,12 @@ Suspendisse id elit mauris, ac eleifend sem. Vivamus consequat aliquam lacus at 
 		'UsuarioResponsavel' => array('className' => 'Usuario', 'foreignKey' => 'usuario_responsavel_id'),
 		'Prioridade' => array('className' => 'Prioridade', 'foreignKey' => 'prioridade_id')
 	);
+	
+	public function getUltimosChamados() {
+		if (!$ultimosChamados = Cache::read("ultimosChamados")) {
+			$ultimosChamados = $this->find('all', array('limit'=>100));
+			Cache::write('ultimosChamados', $ultimosChamados);
+		}
+		return $ultimosChamados;
+	}
 }
