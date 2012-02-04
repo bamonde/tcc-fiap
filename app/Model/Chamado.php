@@ -2,8 +2,6 @@
 class Chamado extends AppModel {
 	public $name = 'Chamado';
 	public $displayField = 'titulo';
-	public $cacheQueries = true;
-	
 	
 	public $titulos = array(
 		'Navegador não abre',
