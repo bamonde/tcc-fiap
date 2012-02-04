@@ -8,8 +8,8 @@ class ChamadosController extends AppController {
 	public function index() {
 		$this->Chamado->recursive = 0;
 		$this->Paginator->settings = array('limit' => 100, 'maxLimit' => 10000);
-		//$this->set('chamados', $this->paginate());
-		$this->set('chamados', $this->Chamado->getUltimosChamados());
+		$this->set('chamados', $this->paginate());
+		//$this->set('chamados', $this->Chamado->getUltimosChamados());
 		
 	}
 	
