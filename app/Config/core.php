@@ -239,6 +239,7 @@
  * File storage engine.
  */
   	 Cache::config('default', array(
+/*
  		'engine' => 'File', //[required]
  		'duration'=> 3600, //[optional]
  		'probability'=> 100, //[optional]
@@ -246,15 +247,15 @@
   		'prefix' => 'cake_', //[optional]  prefix every cache file with this string
   		'lock' => false, //[optional]  use file locking
   		'serialize' => true, //[optional]
-/*
-  	 		'engine' => 'Memcache', //[required]
-  	 		'duration'=> 3600, //[optional]
-  	 		'probability'=> 100, //[optional]
-  	  		'prefix' => Inflector::slug(APP_DIR) . '_', //[optional]  prefix every cache file with this string
-  	  		'servers' => array('127.0.0.1:11211'), //[optional]
-  	  		'persistent' => true, // [optional] set this to false for non-persistent connections
-  	  		'compress' => false, // [optional] compress data in Memcache (slower, but uses less memory)
 */  	 
+ 		'engine' => 'Memcache', //[required]
+ 		'duration'=> 3600, //[optional]
+ 		'probability'=> 100, //[optional]
+  		'prefix' => Inflector::slug(APP_DIR) . '_', //[optional]  prefix every cache file with this string
+  		'servers' => array('127.0.0.1:11211'), //[optional]
+		'persistent' => true, // [optional] set this to false for non-persistent connections
+ 		'compress' => false, // [optional] compress data in Memcache (slower, but uses less memory)
+  		'serialize' => true, //[optional]
   	 
   	 ));
  /*
