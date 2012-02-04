@@ -2,7 +2,7 @@
 class Chamado extends AppModel {
 	public $name = 'Chamado';
 	public $displayField = 'titulo';
-	
+
 	public $titulos = array(
 		'Navegador não abre',
 		'Internet não funciona',

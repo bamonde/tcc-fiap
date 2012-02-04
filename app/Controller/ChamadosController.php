@@ -1,9 +1,13 @@
 <?php
 class ChamadosController extends AppController {
-	var $name = 'Chamados';
-	var $uses = array('Chamado', 'Usuario', 'Setor', 'Prioridade');
-	var $helpers = array('Html', 'Form');
-	var $components = array('Paginator');
+	public $name = 'Chamados';
+	public $uses = array('Chamado', 'Usuario', 'Setor', 'Prioridade');
+	public $helpers = array('Html', 'Form', 'Cache');
+	public $components = array('Paginator');
+	public $cacheAction = array(
+		'index' => 3600,
+	);
+	
 	
 	public function index() {
 		$this->Chamado->recursive = 0;
